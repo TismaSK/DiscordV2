@@ -1,0 +1,130 @@
+#assembly {display: flex;}
+
+#server-list {
+    background-color: rgb(32,34,37);
+    width: 85px;
+    height: 300rem;
+    text-align: center;
+}
+
+.server-set {
+    background-color: rgb(54,57,63);
+    padding: 10px;
+    margin-top: 15px;
+    margin-right: 10px;
+    margin-left: 10px;
+    border-radius: 100%;
+    transition: 150ms;
+}
+
+.server-set:hover {
+    background-color: rgb(88,101,242);
+    border-radius: 20px;
+}
+
+.server-set:active {transform: scale(0.96);}
+
+#additional-btn:hover {
+    background-color: rgba(59,165,93,255);
+}
+
+#friend-list {
+    background-color: rgb(47,49,54);
+    width: 15rem;
+    padding: 10px;
+}
+
+#searchbtn {
+    padding: 5px;
+    background-color: rgb(32,34,37);
+    border: none;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+
+#searchbtn {cursor: pointer;}
+
+#friends-scrollbar {
+    overflow-y: scroll;
+    height: 46rem;
+}
+
+#friends-scrollbar::-webkit-scrollbar {
+    overflow-y: scroll;
+     background-color: rgb(32,34,37);
+     width: 5px;
+     border-radius: 10px;
+}
+
+.large-btn {
+    margin-top: 3px;
+    padding: 5px;
+    border-radius: 4px;
+    display: flex;
+}
+
+.large-btn:hover {
+    background-color: rgba(60, 63, 69, 0.747);
+    cursor: pointer;
+}
+
+.large-btn:active {
+    background-color: rgb(60, 63, 69);
+}
+
+.large-btn:active>h1 {
+    color: rgba(255, 255, 255, 0.747);
+}
+.text-resize {
+    margin-left: 10px;
+    margin-top: 8px;
+}
+
+.avatar-profile {
+    border-radius: 100%;
+}
+
+#main-panel {
+    padding: 10px;
+    display: flex;
+    height: 40px;
+    border-bottom: solid black 0.3px;
+}
+
+#add-friend>h1 {
+    color: rgb(255, 255, 255);
+}
+
+#add-friend {
+    background-color: rgba(45,125,70,255);
+    height: 20px;
+}
+
+#add-friend:active {
+    background-color: transparent;
+}
+
+#add-friend:active>h1 {
+    color: rgb(67,185,91);
+}
+
+.image-resize {
+    width: 30px;
+    height: 30px;
+    margin-top: 5px;
+    margin-left: 15px;
+}
+
+.image-resize:hover {
+    cursor: pointer;
+}
+
+#bottom-left-btn {
+    display: flex;
+    margin-left: 53rem;
+}
+
+#onlinePanel {
+    width: 10rem;
+    background-color: yellow;
+}
